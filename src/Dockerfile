@@ -5,7 +5,7 @@ FROM openjdk:17-jre-slim
 WORKDIR /usr/src/app
 
 # Copy the application JAR file into the container at the specified working directory
-COPY myapp.jar .
+COPY samplespringbootproject.jar .
 
 # Specify the command to run on container startup
-CMD ["java", "-jar", "myapp.jar"]
+CMD ["java", "-jar", "samplespringbootproject.jar"]
